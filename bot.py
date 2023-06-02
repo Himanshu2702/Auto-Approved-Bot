@@ -30,12 +30,12 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 pr0fess0r_99=Client(
     "Auto Approved Bot",
-    bot_token = environ["BOT_TOKEN"],
-    api_id = int(environ["API_ID"]),
-    api_hash = environ["API_HASH"]
+    bot_token = environ["5157547895:AAGF32QFdem52B6DLhpG3-VqLA4csDJOyNk"],
+    api_id = int(environ["9995408"]),
+    api_hash = environ["694891519c414468f5da244e01abb20c"]
 )
 
-CHAT_ID = [int(pr0fess0r_99) for pr0fess0r_99 in environ.get("CHAT_ID", None).split()]
+CHAT_ID = [int(pr0fess0r_99) for pr0fess0r_99 in environ.get("-1001713050413", None).split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
